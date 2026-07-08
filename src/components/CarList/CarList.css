@@ -1,0 +1,27 @@
+.car-list {
+  /*  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  width: calc((100% - 20px) / 6);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.car-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.car-card h3 {
+  padding: 10px;
+}

@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+.card {
+  flex: 0 1 calc(25% - 20px);
+}
+.header,
+.title {
+  text-align: center;
+}
+.width {
+  max-width: 580px; /* або інше значення */
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  text-align: center;
+}

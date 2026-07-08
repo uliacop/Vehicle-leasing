@@ -1,0 +1,41 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer-list,
+.svg-block {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+}
+.footerUnit {
+  list-style: none;
+  line-height: 30px;
+}
+.footer-list ul {
+  padding: 0;
+}
+.footer-svg {
+  width: 30px;
+  height: 30px;
+}
+.svg-block {
+  justify-content: center;
+}
+.svg-list,
+.footer-info {
+  display: flex;
+  gap: 60px;
+}
+.footer-p {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 50px;
+}
+
+.footer-info {
+  justify-content: center;
+}

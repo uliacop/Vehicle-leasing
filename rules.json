@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "1",
+    "description": "How much you can drive, stated as annual miles (excess miles are charged at a specified rate)"
+  },
+  {
+    "id": 2,
+    "title": "2",
+    "description": "Types of damage that you may be liable for at the end of your lease"
+  },
+  {
+    "id": 3,
+    "title": "3",
+    "description": "The procedures and costs when you return the vehicle at the end of your lease"
+  }
+]

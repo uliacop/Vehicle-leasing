@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "What is car leasing?",
+    "text": "Car leasing is a way to drive a new or used vehicle for a fixed period (usually 2–5 years) without owning it. You pay a monthly fee and return the vehicle at the end of the lease term, or you may have the option to buy it."
+  },
+  {
+    "id": 2,
+    "title": " Who is eligible to lease a car?",
+    "text": "You must be at least 18 years old, have a valid driver’s license, and show proof of income. A credit check is usually required"
+  },
+  {
+    "id": 3,
+    "title": "Can I lease a car with bad credit?",
+    "text": "Yes, but your options may be limited. A co-signer or a larger down payment might be required."
+  },
+  {
+    "id": 4,
+    "title": "What is included in the lease price?",
+    "text": "The monthly lease payment typically includes the vehicle’s depreciation, interest, and sometimes maintenance or service packages."
+  },
+  {
+    "id": 5,
+    "title": "Can I end my lease early?",
+    "text": "Yes, but early termination fees may apply. Contact us for more details on your specific lease agreement"
+  },
+  {
+    "id": 6,
+    "title": "What types of cars can I lease?",
+    "text": "We offer a wide range of new and used vehicles, including sedans, SUVs, electric cars, and commercial vehicles."
+  }
+]

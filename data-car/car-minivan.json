@@ -1,0 +1,314 @@
+[
+  {
+    "id": "1-minivan",
+    "name": "Toyota Camry",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/toyota-camry.jpg",
+    "price_usd": 32000,
+    "engine": "2.5L I4",
+    "fuel_consumption_l_100km": 7.2,
+    "max_speed_kmh": 210,
+    "weight_kg": 1550
+  },
+  {
+    "id": "2-minivan",
+    "name": "BMW 3 Series 330i",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/bmw-3-series-330i.jpg",
+    "price_usd": 45000,
+    "engine": "2.0L Turbo I4",
+    "fuel_consumption_l_100km": 7.8,
+    "max_speed_kmh": 250,
+    "weight_kg": 1620
+  },
+  {
+    "id": "3-minivan",
+    "name": "Mercedes-Benz C-Class C300",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/mercedes-benzc-class c300(3).jpg",
+    "price_usd": 48000,
+    "engine": "2.0L Turbo I4",
+    "fuel_consumption_l_100km": 8.1,
+    "max_speed_kmh": 250,
+    "weight_kg": 1650
+  },
+  {
+    "id": "4-minivan",
+    "name": "Audi A4 45 TFSI",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/audi-a4-45-TFSIs.jpg",
+    "price_usd": 47000,
+    "engine": "2.0L Turbo I4",
+    "fuel_consumption_l_100km": 7.5,
+    "max_speed_kmh": 250,
+    "weight_kg": 1600
+  },
+  {
+    "id": "5-minivan",
+    "name": "Tesla Model 3 Long Range",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/tesla-model-3-long-range.jpeg",
+    "price_usd": 42000,
+    "engine": "Electric Dual Motor",
+    "fuel_consumption_l_100km": 0,
+    "max_speed_kmh": 233,
+    "weight_kg": 1840
+  },
+  {
+    "id": "6-minivan",
+    "name": "Honda Accord 2024",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/honda-accord.jpg",
+    "price_usd": 31000,
+    "engine": "1.5L Turbo I4",
+    "fuel_consumption_l_100km": 6.9,
+    "max_speed_kmh": 200,
+    "weight_kg": 1500
+  },
+  {
+    "id": "7-minivan",
+    "name": "Hyundai Sonata",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/hyundai-sonata.jpg",
+    "price_usd": 29000,
+    "engine": "2.5L I4",
+    "fuel_consumption_l_100km": 7.0,
+    "max_speed_kmh": 210,
+    "weight_kg": 1490
+  },
+  {
+    "id": "8-minivan",
+    "name": "Kia K5",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/kia-k5.jpg",
+    "price_usd": 28000,
+    "engine": "1.6L Turbo I4",
+    "fuel_consumption_l_100km": 6.8,
+    "max_speed_kmh": 205,
+    "weight_kg": 1480
+  },
+  {
+    "id": "9-minivan",
+    "name": "Volkswagen Passat",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/volkswagen-passat.jpg",
+    "price_usd": 30000,
+    "engine": "2.0L TSI",
+    "fuel_consumption_l_100km": 7.1,
+    "max_speed_kmh": 220,
+    "weight_kg": 1520
+  },
+  {
+    "id": "10-minivan",
+    "name": "Mazda 6",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/mazda-6.jpg",
+    "price_usd": 29500,
+    "engine": "2.5L Skyactiv",
+    "fuel_consumption_l_100km": 7.3,
+    "max_speed_kmh": 215,
+    "weight_kg": 1505
+  },
+
+  {
+    "id": "11-minivan",
+    "name": "Toyota Sienna",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/toyota-sienna.jpg",
+    "price_usd": 39000,
+    "engine": "2.5L Hybrid",
+    "fuel_consumption_l_100km": 6.5,
+    "max_speed_kmh": 180,
+    "weight_kg": 2000
+  },
+  {
+    "id": "12-minivan",
+    "name": "Honda Odyssey",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/honda-odyssey.jpg",
+    "price_usd": 41000,
+    "engine": "3.5L V6",
+    "fuel_consumption_l_100km": 9.0,
+    "max_speed_kmh": 190,
+    "weight_kg": 2100
+  },
+  {
+    "id": "13-minivan",
+    "name": "Chrysler Pacifica",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/chrysler-pacifica.jpg",
+    "price_usd": 42000,
+    "engine": "3.6L V6",
+    "fuel_consumption_l_100km": 9.2,
+    "max_speed_kmh": 185,
+    "weight_kg": 2050
+  },
+  {
+    "id": "14-minivan",
+    "name": "Kia Carnival",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/kia-carnival.jpg",
+    "price_usd": 38000,
+    "engine": "3.5L V6",
+    "fuel_consumption_l_100km": 9.5,
+    "max_speed_kmh": 190,
+    "weight_kg": 2150
+  },
+  {
+    "id": "15-minivan",
+    "name": "Volkswagen Multivan",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/volkswagen-multivan.jpg",
+    "price_usd": 45000,
+    "engine": "2.0L TDI",
+    "fuel_consumption_l_100km": 7.8,
+    "max_speed_kmh": 200,
+    "weight_kg": 2200
+  },
+
+  {
+    "id": "16-minivan",
+    "name": "Ford Fusion",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/ford-fusion.jpg",
+    "price_usd": 27000,
+    "engine": "2.5L I4",
+    "fuel_consumption_l_100km": 7.4,
+    "max_speed_kmh": 210,
+    "weight_kg": 1540
+  },
+  {
+    "id": "17-minivan",
+    "name": "Chevrolet Malibu",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/chevrolet-malibu.jpg",
+    "price_usd": 26000,
+    "engine": "1.5L Turbo",
+    "fuel_consumption_l_100km": 7.2,
+    "max_speed_kmh": 205,
+    "weight_kg": 1530
+  },
+  {
+    "id": "18-minivan",
+    "name": "Nissan Altima",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/nissan-altima.jpg",
+    "price_usd": 27500,
+    "engine": "2.5L I4",
+    "fuel_consumption_l_100km": 7.0,
+    "max_speed_kmh": 210,
+    "weight_kg": 1510
+  },
+  {
+    "id": "19-minivan",
+    "name": "Subaru Legacy",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/subaru-legacy.jpg",
+    "price_usd": 28500,
+    "engine": "2.5L Boxer",
+    "fuel_consumption_l_100km": 7.6,
+    "max_speed_kmh": 215,
+    "weight_kg": 1580
+  },
+  {
+    "id": "20-minivan",
+    "name": "Lexus ES 350",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/lexus-es-350.jpg",
+    "price_usd": 48000,
+    "engine": "3.5L V6",
+    "fuel_consumption_l_100km": 8.5,
+    "max_speed_kmh": 230,
+    "weight_kg": 1700
+  },
+
+  {
+    "id": "21-minivan",
+    "name": "Ford Explorer Minivan Edition",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/ford-explorer-minivan-edition.jpg",
+    "price_usd": 43000,
+    "engine": "2.3L EcoBoost",
+    "fuel_consumption_l_100km": 10.0,
+    "max_speed_kmh": 200,
+    "weight_kg": 2100
+  },
+  {
+    "id": "22-minivan",
+    "name": "Renault Espace",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/renault-espace.jpg",
+    "price_usd": 37000,
+    "engine": "1.8L Turbo",
+    "fuel_consumption_l_100km": 7.9,
+    "max_speed_kmh": 195,
+    "weight_kg": 1950
+  },
+  {
+    "id": "23-minivan",
+    "name": "Peugeot 5008",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/peugeot-5008.jpg",
+    "price_usd": 36000,
+    "engine": "1.6L PureTech",
+    "fuel_consumption_l_100km": 7.3,
+    "max_speed_kmh": 200,
+    "weight_kg": 1900
+  },
+  {
+    "id": "24-minivan",
+    "name": "Citroën Grand C4 Picasso",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/citroën-grand-c4-picasso.jpg",
+    "price_usd": 34000,
+    "engine": "1.5L Diesel",
+    "fuel_consumption_l_100km": 6.8,
+    "max_speed_kmh": 185,
+    "weight_kg": 1850
+  },
+  {
+    "id": "25-minivan",
+    "name": "Opel Zafira Life",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/opel- zafira-life.jpg",
+    "price_usd": 35000,
+    "engine": "2.0L Diesel",
+    "fuel_consumption_l_100km": 7.5,
+    "max_speed_kmh": 190,
+    "weight_kg": 1950
+  },
+
+  {
+    "id": "26-minivan",
+    "name": "Skoda Octavia",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/skoda-octavia.jpg",
+    "price_usd": 26000,
+    "engine": "1.5L TSI",
+    "fuel_consumption_l_100km": 6.5,
+    "max_speed_kmh": 220,
+    "weight_kg": 1450
+  },
+  {
+    "id": "27-minivan",
+    "name": "Dodge Grand Caravan",
+    "type": "Minivan",
+    "photo": "/src/img/car-minivan/dodge-grand-caravan.jpg",
+    "price_usd": 33000,
+    "engine": "3.6L V6",
+    "fuel_consumption_l_100km": 10.5,
+    "max_speed_kmh": 180,
+    "weight_kg": 2100
+  },
+  {
+    "id": 28,
+    "name": "Tesla Model X",
+    "type": "Car",
+    "photo": "/src/img/car-minivan/tesla-model-X.jpg",
+    "price_usd": 90000,
+    "engine": "Electric Dual Motor",
+    "fuel_consumption_l_100km": 0,
+    "max_speed_kmh": 250,
+    "weight_kg": 2400
+  }
+]

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/img/signs/mainicons.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leasing</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      (function (c, a, r, i) {
+        c.CI_API_KEY = i;
+        var s = a.createElement("script");
+        s.async = 1;
+        s.src =
+          r + "?v=" + new Date().toISOString().slice(0, 10).replace(/-/g, "");
+        a.head.appendChild(s);
+      })(
+        window,
+        document,
+        "https://carimagesapi.com/assets/js/carimages.js",
+        "ci_9502ac0aeca259bbaaef8220aa8739ac59b065e094603866fd4bb460"
+      );
+    </script>
+  </body>
+</html>

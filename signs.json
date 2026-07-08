@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "/src/img/signs/car.png",
+    "title": "Top Dealers",
+    "description": "TrueCar Certified Dealers compete for your business by providing discounted pricing on in-stock inventory."
+  },
+  {
+    "id": 2,
+    "img": "/src/img/signs/percent.png",
+    "title": "Discounted Pricing",
+    "description": "View local inventory from the comfort of home and get access to guaranteed savings on the car of your choice"
+  },
+  {
+    "id": 3,
+    "img": "/src/img/signs/wallet.png",
+    "title": "Lower Payments",
+    "description": "Get discounted pricing when you shop for a car or truck using TrueCar and save on your lease payment."
+  },
+  {
+    "id": 4,
+    "img": "/src/img/signs/arrow.png",
+    "title": "Easy Upgrade",
+    "description": "Easy to upgrade to the newest vehicle model every few years if you would like to be modern and comfortable"
+  }
+]

@@ -1,0 +1,12 @@
+.wrapper-block {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+.car-card {
+  border: 1px solid #bbbdc0;
+  border-radius: 50px;
+  flex: 0 1 calc(25% - 20px);
+  padding: 10px;
+}

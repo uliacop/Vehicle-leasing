@@ -1,0 +1,6 @@
+.unit {
+  list-style: none;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 50px;
+}
