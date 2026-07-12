@@ -17,7 +17,6 @@ export default function CarChoose({ car, onDelete }) {
             e.currentTarget.src = defaultImg;
           }}
         />
-
         <p>{car.name}</p>
         <p>price:{car.price_usd}</p>
         <p>engine:{car.engine}</p>
@@ -26,6 +25,5 @@ export default function CarChoose({ car, onDelete }) {
         <p>weight/kg:{car.weight_kg}</p>
       </li>
     </>
-    /*  <li className="car-choose"> */
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./LeasingCalculator.css";
 export default function LeasingCalculator() {
   const [bill, setBill] = useState("");
   const [firstPayment, setFirstPayment] = useState("");
@@ -22,15 +22,26 @@ export default function LeasingCalculator() {
   const res = loan * percentageMounth;
   const schedule = createSchedule(loan, monthlyRate, months, res);
   return (
-    <div>
-      <ValueInput bill={bill} onSetBill={setBill} />
-      <FirstPayment
-        firstPayment={firstPayment}
-        onSetPayment={setFirstPayment}
-      />
-      <LeasingTerm months={months} onSelect={setMonth}>
-        Select the lease term, month
-      </LeasingTerm>
+    <div className="leasing-cal">
+      <h3>leasing calculator</h3>
+      <div className="leasing-table">
+        <ValueInput bill={bill} onSetBill={setBill} />
+        <FirstPayment
+          firstPayment={firstPayment}
+          onSetPayment={setFirstPayment}
+        />
+        <LeasingTerm months={months} onSelect={setMonth}>
+          Select the lease term, month
+        </LeasingTerm>
+        <div>
+          <p></p>
+          <span>
+            Monthly payment:
+            {res.toFixed(2)}
+          </span>
+        </div>
+      </div>
+
       {bill > 0 && (
         <>
           <Output
@@ -45,15 +56,17 @@ export default function LeasingCalculator() {
           />
         </>
       )}
-      <button onClick={showPaymentSchedule}>Payment schedule</button>
-      <Reset onReset={handleReset} />
+      <div className="leasing-button">
+        <button onClick={showPaymentSchedule}>Payment schedule</button>
+        <Reset onReset={handleReset} />
+      </div>
     </div>
   );
 }
 
 function ValueInput({ bill, onSetBill }) {
   return (
-    <div>
+    <div className="leasing-value">
       <label>How much the price of car?</label>
       <input
         type="text"
@@ -66,7 +79,7 @@ function ValueInput({ bill, onSetBill }) {
 }
 function FirstPayment({ firstPayment, onSetPayment }) {
   return (
-    <div>
+    <div className="leasing-value">
       <label>What is the amount of the first payment?</label>
       <input
         type="text"
@@ -80,7 +93,7 @@ function FirstPayment({ firstPayment, onSetPayment }) {
 
 function LeasingTerm({ children, months, onSelect }) {
   return (
-    <div>
+    <div className="leasing-value">
       <label>{children}</label>
       <select value={months} onChange={(e) => onSelect(Number(e.target.value))}>
         <option value="6">6</option>
@@ -123,9 +136,10 @@ function Output({
 
   return (
     <>
-      <h3>{res.toFixed(2)}</h3>
+      {/*  <h3>{res.toFixed(2)}</h3> */}
+      <h3>Monthly payment schedule</h3>
       {showSchedule && (
-        <table>
+        <table className="schedule-table">
           <thead>
             <tr>
               <th>Month</th>

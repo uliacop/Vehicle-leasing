@@ -8,3 +8,22 @@
   flex-direction: column;
   align-items: center;
 }
+.back-select {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: #007bff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.back-select:hover {
+  background-color: #4c4d4e;
+  color: white;
+  font-weight: bold;
+}
+.no-car {
+  text-align: center;
+}

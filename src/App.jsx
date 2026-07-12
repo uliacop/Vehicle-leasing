@@ -1,10 +1,4 @@
-import {
-  Routes,
-  Route,
-  Navigate,
-  NavLink,
-  useLocation,
-} from "react-router-dom";
+import { Routes, Route, Navigate, NavLink } from "react-router-dom";
 import { useState, useEffect, Suspense, lazy } from "react";
 import LeaseList from "./components/LeaseList/LeaseList";
 
@@ -26,7 +20,6 @@ import CarsPage from "./pages/CarsPage/CarsPage.jsx";
 import PricingPage from "./pages/PricingPage/PricingPage.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import CarSummary from "./components/CarSummary/CarSummary.jsx";
-/* import CarsCategoryPage from "./pages/CarsCategoryPage/CarsCategoryPage.jsx"; */
 import CarDetails from "./components/CarDetails/CarDetails.jsx";
 import SelectCarList from "./components/SelectCarList/SelectCarList.jsx";
 import carsMinivan from "../data-car/car-minivan.json";
@@ -115,27 +108,6 @@ function App() {
                 />
               }
             />
-            {/*   <Route
-              path=":category/:carId"
-              element={
-                <CarDetails
-                  carsData={{
-                    cars: carsMinivan,
-                    trucks: carsTrucks,
-                    crossovers: carsCrossovers,
-                    electrified: carsElectrified,
-                  }}
-                />
-              }
-            />
-          </Route> */}
-
-            {/*     <Route path="/cars" element={<CarsPage />}>
-            <Route index element={<CarSummary />} />
-            <Route path=":category" element={<CarSummary />} />
-            <Route path=":category/:carId" element={<CarDetails />} />
-          </Route> */}
-
             <Route
               path=":category/:carId"
               element={

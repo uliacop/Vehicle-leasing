@@ -11,7 +11,7 @@
     "weight_kg": 2069
   },
   {
-    "id": 2,
+    "id": "2-electrified",
     "name": "Tesla Model 3",
     "type": "Electrified",
     "photo": "/src/img/electrified/tesla-model-3.jpg",
@@ -22,7 +22,7 @@
     "weight_kg": 1765
   },
   {
-    "id": 3,
+    "id": "3-electrified",
     "name": "Tesla Model X 2024",
     "type": "Electrified",
     "photo": "/src/img/electrified/tesla-model-x.jpg",
@@ -33,7 +33,7 @@
     "weight_kg": 2440
   },
   {
-    "id": 4,
+    "id": "4-electrified",
     "name": "Tesla Model Y",
     "type": "Electrified",
     "photo": "/src/img/electrified/tesla-model-y.jpg",
@@ -44,7 +44,7 @@
     "weight_kg": 2003
   },
   {
-    "id": 5,
+    "id": "5-electrified",
     "name": "BMW i4",
     "type": "Electrified",
     "photo": "/src/img/electrified/",
@@ -55,7 +55,7 @@
     "weight_kg": 2125
   },
   {
-    "id": 6,
+    "id": "6-electrified",
     "name": "BMW iX",
     "type": "Electrified",
     "photo": "/src/img/electrified/bmw-ix.jpg",
@@ -66,7 +66,7 @@
     "weight_kg": 2585
   },
   {
-    "id": 7,
+    "id": "7-electrified",
     "name": "Audi Q4 e-tron",
     "type": "Electrified",
     "photo": "/src/img/electrified/audi-q4 e-tron.jpg",
@@ -77,7 +77,7 @@
     "weight_kg": 2125
   },
   {
-    "id": 8,
+    "id": "8-electrified",
     "name": "Audi e-tron GT",
     "type": "Electrified",
     "photo": "/src/img/electrified/audi-e-tron-gt.jpg",
@@ -88,7 +88,7 @@
     "weight_kg": 2350
   },
   {
-    "id": 9,
+    "id": "9-electrified",
     "name": "Mercedes EQS 2024",
     "type": "Electrified",
     "photo": "/src/img/electrified/mercedes-eqs.jpg",
@@ -99,7 +99,7 @@
     "weight_kg": 2480
   },
   {
-    "id": 10,
+    "id": "10-electrified",
     "name": "Mercedes EQE 2024",
     "type": "Electrified",
     "photo": "/src/img/electrified/mercedes-eqe.jpg",
@@ -110,7 +110,7 @@
     "weight_kg": 2355
   },
   {
-    "id": 11,
+    "id": "11-electrified",
     "name": "Hyundai Ioniq 5",
     "type": "Electrified",
     "photo": "/src/img/electrified/hyundai-loniq-5.jpg",
@@ -121,7 +121,7 @@
     "weight_kg": 1950
   },
   {
-    "id": 12,
+    "id": "12-electrified",
     "name": "Hyundai Ioniq 6",
     "type": "Electrified",
     "photo": "/src/img/electrified/hyundai-loniq-6.jpg",
@@ -132,7 +132,7 @@
     "weight_kg": 1930
   },
   {
-    "id": 13,
+    "id": "13-electrified",
     "name": "Kia EV6",
     "type": "Electrified",
     "photo": "/src/img/electrified/kia-ev6.jpg",
@@ -143,7 +143,7 @@
     "weight_kg": 2100
   },
   {
-    "id": 14,
+    "id": "14-electrified",
     "name": "Kia EV9",
     "type": "Electrified",
     "photo": "/src/img/electrified/kia-ev9.jpg",
@@ -154,7 +154,7 @@
     "weight_kg": 2460
   },
   {
-    "id": 15,
+    "id": "15-electrified",
     "name": "Ford Mustang Mach-E",
     "type": "Electrified",
     "photo": "/src/img/electrified/ford-mustang-mach-e.jpg",
@@ -165,7 +165,7 @@
     "weight_kg": 2180
   },
   {
-    "id": 16,
+    "id": "16-electrified",
     "name": "Volkswagen ID.4",
     "type": "Electrified",
     "photo": "/src/img/electrified/volkswagen-id.4 .jpg",
@@ -176,7 +176,7 @@
     "weight_kg": 2120
   },
   {
-    "id": 17,
+    "id": "17-electrified",
     "name": "Porsche Taycan",
     "type": "Electrified",
     "photo": "/src/img/electrified/porsche-taycan .jpg",
@@ -187,7 +187,7 @@
     "weight_kg": 2295
   },
   {
-    "id": 18,
+    "id": "18-electrified",
     "name": "Nissan Ariya",
     "type": "Electrified",
     "photo": "/src/img/electrified/nissan-ariya .jpg",
@@ -198,7 +198,7 @@
     "weight_kg": 2130
   },
   {
-    "id": 19,
+    "id": "19-electrified",
     "name": "Rivian R1T",
     "type": "Electrified",
     "photo": "/src/img/electrified/rivian-r1t .jpg",
@@ -209,7 +209,7 @@
     "weight_kg": 3175
   },
   {
-    "id": 20,
+    "id": "20-electrified",
     "name": "Rivian R1S",
     "type": "Electrified",
     "photo": "/src/img/electrified/rivian-r1s.jpg",
@@ -220,7 +220,7 @@
     "weight_kg": 3100
   },
   {
-    "id": 21,
+    "id": "21-electrified",
     "name": "Toyota Prius Prime",
     "type": "Electrified",
     "photo": "/src/img/electrified/toyota-prius-prime 2024.jpg",
@@ -231,7 +231,7 @@
     "weight_kg": 1560
   },
   {
-    "id": 22,
+    "id": "22-electrified",
     "name": "Toyota RAV4 Hybrid",
     "type": "Electrified",
     "photo": "/src/img/electrified/toyota-rav4-hybrid.jpg",
@@ -242,7 +242,7 @@
     "weight_kg": 1710
   },
   {
-    "id": 23,
+    "id": "23-electrified",
     "name": "Honda CR-V Hybrid",
     "type": "Electrified",
     "photo": "/src/img/electrified/honda-cr-v-hybrid.jpg",
@@ -253,7 +253,7 @@
     "weight_kg": 1730
   },
   {
-    "id": 24,
+    "id": "24-electrified",
     "name": "Volvo XC40 Recharge",
     "type": "Electrified",
     "photo": "/src/img/electrified/volvo-xc40-recharge.jpg",
@@ -264,7 +264,7 @@
     "weight_kg": 2150
   },
   {
-    "id": 25,
+    "id": "25-electrified",
     "name": "Lucid Air",
     "type": "Electrified",
     "photo": "/src/img/electrified/lucid-air.jpg",
@@ -275,7 +275,7 @@
     "weight_kg": 2075
   },
   {
-    "id": 26,
+    "id": "26-electrified",
     "name": "Polestar 2",
     "type": "Electrified",
     "photo": "/src/img/electrified/polestar-2.jpg",
@@ -286,7 +286,7 @@
     "weight_kg": 2015
   },
   {
-    "id": 27,
+    "id": "27-electrified",
     "name": "BYD Seal",
     "type": "Electrified",
     "photo": "/src/img/electrified/byd-seal.jpg",
@@ -297,7 +297,7 @@
     "weight_kg": 1940
   },
   {
-    "id": 28,
+    "id": "28-electrified",
     "name": "BYD Atto 3",
     "type": "Electrified",
     "photo": "/src/img/electrified/byd-atto-3.jpg",
@@ -308,7 +308,7 @@
     "weight_kg": 1750
   },
   {
-    "id": 29,
+    "id": "29-electrified",
     "name": "Chevrolet Equinox EV",
     "type": "Electrified",
     "photo": "/src/img/electrified/chevrolet-equinox-ev.jpg",
@@ -319,7 +319,7 @@
     "weight_kg": 2130
   },
   {
-    "id": 30,
+    "id": "30-electrified",
     "name": "Mazda MX-30",
     "type": "Electrified",
     "photo": "/src/img/electrified/mazda-mx-30.jpg",

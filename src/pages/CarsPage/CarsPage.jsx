@@ -2,16 +2,12 @@ import React from "react";
 import CarList from "../../components/CarList/CarList";
 import ButtonNavigation from "../../components/ButtonNavigation/ButtonNavigation";
 import { Link, NavLink, Route, Routes, Outlet } from "react-router-dom";
-
-/* import CarMinivan from "../../components/CarMinivan/CarMinivan"; */
 import "./CarsPage.css";
 export default function CarsPage() {
-  /*   const [selectedCarId, setSelectedCarId] = useState(null); */
-
   console.log("CarsPage");
-
   return (
     <main>
+      <h2 className="header-lease">Choose your car</h2>
       <ul className="car-list">
         <li>
           <NavLink
@@ -46,16 +42,7 @@ export default function CarsPage() {
             Electrified
           </NavLink>
         </li>
-        {/*  <li>
-          <NavLink
-            to="/cars/choose-car"
-            className={({ isActive }) => (isActive ? "active" : "")}
-          >
-            <IoBagHandleOutline />
-          </NavLink>
-        </li> */}
       </ul>
-
       <Outlet />
     </main>
   );

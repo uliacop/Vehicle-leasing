@@ -14,6 +14,3 @@
 .card-list {
   flex: 0 1 calc(25% - 20px);
 }
-.header-lease {
-  text-align: center;
-}
