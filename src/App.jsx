@@ -32,7 +32,13 @@ import CarList from "./components/CarList/CarList.jsx";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const [buy, setBuy] = useState([]);
+  const [buy, setBuy] = useState(() => {
+    const savedCars = window.localStorage.getItem("saved-cars");
+    return savedCars ? JSON.parse(savedCars) : [];
+  });
+  useEffect(() => {
+    window.localStorage.setItem("saved-cars", JSON.stringify(buy));
+  }, [buy]);
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark");
