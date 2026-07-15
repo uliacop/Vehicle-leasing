@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { toast } from "react-toastify";
+
 import "./LeasingCalculator.css";
 export default function LeasingCalculator() {
   const [bill, setBill] = useState("");
@@ -6,6 +8,8 @@ export default function LeasingCalculator() {
   const [percentage, setPercentage] = useState(5);
   const [months, setMonth] = useState(6);
   const [showSchedule, setSchedule] = useState(false);
+  const [showResult, setShowResult] = useState(false);
+  const [result, setResult] = useState(null);
   function handleReset() {
     setBill("");
     setFirstPayment("");
@@ -13,7 +17,9 @@ export default function LeasingCalculator() {
   function showPaymentSchedule() {
     setSchedule((prewSchedule) => !prewSchedule);
   }
-
+  useEffect(() => {
+    setResult(null);
+  }, [bill, firstPayment, months, percentage]);
   const loan = bill - firstPayment;
   const monthlyRate = percentage / 12 / 100;
   const percentageMounth =
@@ -21,46 +27,68 @@ export default function LeasingCalculator() {
     (Math.pow(1 + monthlyRate, months) - 1);
   const res = loan * percentageMounth;
   const schedule = createSchedule(loan, monthlyRate, months, res);
+  function showRes() {
+    if (bill <= 0) {
+      toast.error("Enter the car price.");
+      return;
+    }
+
+    if (firstPayment <= 0) {
+      toast.error("Enter the first payment.");
+      return;
+    }
+
+    if (bill < firstPayment) {
+      toast.error("The first payment cannot exceed the car price.");
+      return;
+    }
+
+    if (bill === firstPayment) {
+      toast.error("The first payment cannot equal the car price.");
+      return;
+    }
+    setResult(res);
+  }
   return (
-    <div className="leasing-cal">
-      <h3>leasing calculator</h3>
-      <div className="leasing-table">
-        <ValueInput bill={bill} onSetBill={setBill} />
-        <FirstPayment
-          firstPayment={firstPayment}
-          onSetPayment={setFirstPayment}
-        />
-        <LeasingTerm months={months} onSelect={setMonth}>
-          Select the lease term, month
-        </LeasingTerm>
-        <div>
-          <p></p>
+    <>
+      <div className="leasing-cal">
+        <h3>leasing calculator</h3>
+        <div className="leasing-table">
+          <ValueInput bill={bill} onSetBill={setBill} />
+          <FirstPayment
+            firstPayment={firstPayment}
+            onSetPayment={setFirstPayment}
+          />
+          <LeasingTerm months={months} onSelect={setMonth}>
+            Select the lease term, month
+          </LeasingTerm>
+          {/* <div>
           <span>
             Monthly payment:
             {res.toFixed(2)}
           </span>
+        </div> */}
+          <br />
+          <div className="leasing-button">
+            <button onClick={showPaymentSchedule}>Payment schedule</button>
+            <Reset onReset={handleReset} />
+            <button onClick={showRes}>Calculate</button>
+          </div>
         </div>
-      </div>
 
-      {bill > 0 && (
-        <>
-          <Output
-            bill={bill}
-            firstPayment={firstPayment}
-            monthlyRate={monthlyRate}
-            months={months}
-            loan={loan}
-            res={res}
-            schedule={schedule}
-            showSchedule={showSchedule}
-          />
-        </>
-      )}
-      <div className="leasing-button">
-        <button onClick={showPaymentSchedule}>Payment schedule</button>
-        <Reset onReset={handleReset} />
+        <Output
+          bill={bill}
+          firstPayment={firstPayment}
+          monthlyRate={monthlyRate}
+          months={months}
+          loan={loan}
+          result={result}
+          schedule={schedule}
+          showSchedule={showSchedule}
+          showResult={showResult}
+        />
       </div>
-    </div>
+    </>
   );
 }
 
@@ -118,9 +146,10 @@ function Output({
   bill,
   firstPayment,
   monthlyRate,
-  res,
+  result,
   schedule,
   showSchedule,
+  showResult,
 }) {
   if (
     bill <= 0 ||
@@ -136,8 +165,9 @@ function Output({
 
   return (
     <>
-      {/*  <h3>{res.toFixed(2)}</h3> */}
-      <h3>Monthly payment schedule</h3>
+      {result !== null && (
+        <h3>Monthly payment schedule: {result.toFixed(2)}</h3>
+      )}
       {showSchedule && (
         <table className="schedule-table">
           <thead>

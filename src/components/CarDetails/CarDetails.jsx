@@ -14,7 +14,8 @@ export default function CarDetails({ buy, onAddBuy, carsData }) {
   const location = useLocation();
   const backLink = useRef(location.state?.from || "/cars");
   const cars = carsData[category];
-  const car = cars.find((item) => item.id === carId);
+  const car = cars.find((item) => String(item.id) === carId);
+
   const {
     name,
     photo,
@@ -37,6 +38,9 @@ export default function CarDetails({ buy, onAddBuy, carsData }) {
     };
     onAddBuy(newSelectCar);
   }
+  console.log("buy =", buy);
+  console.log("isArray =", Array.isArray(buy));
+  console.log("typeof =", typeof buy);
   const isBuy = buy.some((auto) => auto.id === car.id);
   return (
     <div>

@@ -102,3 +102,6 @@ button {
   color: white;
   font-weight: bold;
 }
+main {
+  min-height: 800px;
+}

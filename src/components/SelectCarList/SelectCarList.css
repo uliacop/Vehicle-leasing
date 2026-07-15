@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  min-height: 500px;
 }
 .select-car {
   display: flex;
@@ -26,4 +27,10 @@
 }
 .no-car {
   text-align: center;
+}
+.clear-btn {
+  margin: 50px auto;
+}
+.select-car-list {
+  min-height: 500px;
 }

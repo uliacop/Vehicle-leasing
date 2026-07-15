@@ -9,7 +9,8 @@ import Accordion from "./components/Accordion/Accordion";
 import LeasingCalculator from "./components/LeasingCalculator/LeasingCalculator";
 import { AiFillSun } from "react-icons/ai";
 import { FaRegMoon } from "react-icons/fa";
-
+import { ToastContainer, Bounce } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { Slider } from "./components/Slider/Slider";
 import TextExpanderList from "./components/TextExpander/TextExpanderList";
 import Logo from "./components/Logo/Logo";
@@ -126,11 +127,30 @@ function App() {
           </Route>
           <Route
             path="choose-car"
-            element={<SelectCarList buy={buy} onDelete={handleDeleteCar} />}
+            element={
+              <SelectCarList
+                buy={buy}
+                onDelete={handleDeleteCar}
+                setBuy={setBuy}
+              />
+            }
           />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          transition={Bounce}
+        />
       </Suspense>
       <Footer />
     </div>

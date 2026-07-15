@@ -2,10 +2,16 @@ import React from "react";
 import CarChoose from "../CarChoose/CarChoose";
 import BackButton from "../BackButton";
 import "./SelectCarList.css";
-export default function SelectCarList({ buy, onDelete }) {
+import Button from "../Button";
+export default function SelectCarList({ buy, onDelete, setBuy }) {
+  function clearList() {
+    setBuy("");
+  }
   if (buy.length === 0) {
     return (
-      <h3 className="no-car">No selected cars! Review the section "Cars"</h3>
+      <div className="select-car-list">
+        <h3 className="no-car">No selected cars! Review the section "Cars"</h3>
+      </div>
     );
   }
   return (
@@ -17,6 +23,9 @@ export default function SelectCarList({ buy, onDelete }) {
           <CarChoose car={car} onDelete={onDelete} />
         ))}
       </ul>
+      <Button onClick={clearList} className="button-text clear-btn">
+        Clear list
+      </Button>
     </>
   );
 }
