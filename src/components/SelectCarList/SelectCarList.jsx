@@ -5,7 +5,7 @@ import "./SelectCarList.css";
 import Button from "../Button";
 export default function SelectCarList({ buy, onDelete, setBuy }) {
   function clearList() {
-    setBuy("");
+    setBuy([]);
   }
   if (buy.length === 0) {
     return (

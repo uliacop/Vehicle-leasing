@@ -1,5 +1,5 @@
-import React from "react";
-import { CiStar } from "react-icons/ci";
+import React, { useState } from "react";
+
 import { IoIosStar } from "react-icons/io";
 import BackButton from "../BackButton";
 import defaultImg from "../../img/car.svg";
@@ -8,8 +8,9 @@ import { useParams, useLocation } from "react-router-dom";
 import { useRef } from "react";
 import "./CarDetails.css";
 import "../../App.css";
+import StarButton from "../StarButton/StarButton";
 
-export default function CarDetails({ buy, onAddBuy, carsData }) {
+export default function CarDetails({ buy, onAddBuy, carsData, onDelete }) {
   const { category, carId } = useParams();
   const location = useLocation();
   const backLink = useRef(location.state?.from || "/cars");
@@ -25,32 +26,33 @@ export default function CarDetails({ buy, onAddBuy, carsData }) {
     max_speed_kmh,
     weight_kg,
   } = car;
-  function handleAddSelectCar() {
-    const newSelectCar = {
-      id: car.id,
-      name,
-      photo,
-      price_usd,
-      engine,
-      fuel_consumption_l_100km,
-      max_speed_kmh,
-      weight_kg,
-    };
-    onAddBuy(newSelectCar);
-  }
+
   console.log("buy =", buy);
   console.log("isArray =", Array.isArray(buy));
   console.log("typeof =", typeof buy);
   const isBuy = buy.some((auto) => auto.id === car.id);
+  function handleToogleCar() {
+    if (!isBuy) {
+      onAddBuy({
+        id: car.id,
+        name,
+        photo,
+        price_usd,
+        engine,
+        fuel_consumption_l_100km,
+        max_speed_kmh,
+        weight_kg,
+      });
+    } else {
+      onDelete(car.id);
+    }
+  }
   return (
     <div>
       <div className="car-details">
         <BackButton to={backLink.current} className="button-text" />
-        {!isBuy && (
-          <button className="star-icon-btn" onClick={handleAddSelectCar}>
-            <CiStar className="star-icon" />
-          </button>
-        )}
+        <StarButton onClick={handleToogleCar} selected={isBuy} />
+
         <img
           src={photo || defaultImg}
           alt={name}

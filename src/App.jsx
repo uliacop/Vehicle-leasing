@@ -121,6 +121,7 @@ function App() {
                 <CarDetails
                   buy={buy}
                   onAddBuy={handleAddBuyCar}
+                  onDelete={handleDeleteCar}
                   carsData={{
                     cars: carsMinivan,
                     trucks: carsTrucks,
