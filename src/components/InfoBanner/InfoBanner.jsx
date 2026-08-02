@@ -9,7 +9,6 @@ export default function InfoBanner({ img, title, children }) {
         style={{ backgroundImage: `url(${img})` }}
       >
         <h3 className="info-banner-text">{title}</h3>
-        {/*         <p>{text}</p> */}
         {children}
       </section>
     </div>

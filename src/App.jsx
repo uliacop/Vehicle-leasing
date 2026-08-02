@@ -1,9 +1,7 @@
 import { Routes, Route, Navigate, NavLink } from "react-router-dom";
 import { useState, useEffect, Suspense, lazy } from "react";
 import LeaseList from "./components/LeaseList/LeaseList";
-
 import Block from "./components/Block/Block";
-
 import RulesSet from "./components/Rules/RulesSet";
 import Accordion from "./components/Accordion/Accordion";
 import LeasingCalculator from "./components/LeasingCalculator/LeasingCalculator";
@@ -15,10 +13,6 @@ import { Slider } from "./components/Slider/Slider";
 import TextExpanderList from "./components/TextExpander/TextExpanderList";
 import Logo from "./components/Logo/Logo";
 import Navigation from "./components/Navigation/Navigation";
-import ServicePage from "./pages/ServicePage/ServicePage.jsx";
-import AboutPage from "./pages/AboutPage/AboutPage";
-import CarsPage from "./pages/CarsPage/CarsPage.jsx";
-import PricingPage from "./pages/PricingPage/PricingPage.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import CarSummary from "./components/CarSummary/CarSummary.jsx";
 import CarDetails from "./components/CarDetails/CarDetails.jsx";
@@ -29,7 +23,14 @@ import carsCrossovers from "../data-car/crossovers.json";
 import carsElectrified from "../data-car/electrified.json";
 import "./App.css";
 import CarList from "./components/CarList/CarList.jsx";
-import ContactsPage from "./pages/ContactsPage/ContactsPage.jsx";
+import Loader from "./components/Loader/Loader.jsx";
+const ContactsPage = lazy(() =>
+  import("./pages/ContactsPage/ContactsPage.jsx")
+);
+const AboutPage = lazy(() => import("./pages/AboutPage/AboutPage.jsx"));
+const PricingPage = lazy(() => import("./pages/PricingPage/PricingPage.jsx"));
+const CarsPage = lazy(() => import("./pages/CarsPage/CarsPage.jsx"));
+const ServicePage = lazy(() => import("./pages/ServicePage/ServicePage.jsx"));
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -68,7 +69,7 @@ function App() {
           {darkMode ? <FaRegMoon /> : <AiFillSun />}
         </button>
       </header>
-      <Suspense fallback={<div>Loading page...</div>}>
+      <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<ServicePage />} />
           <Route path="/cars" element={<CarsPage />}>

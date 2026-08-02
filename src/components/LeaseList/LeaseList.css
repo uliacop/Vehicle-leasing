@@ -4,11 +4,6 @@
   margin: 0 auto;
 }
 .wrapper {
-  /*   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-  gap: 20px; */
   text-align: center;
 }
 .card-list {

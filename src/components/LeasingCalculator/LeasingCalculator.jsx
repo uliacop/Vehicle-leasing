@@ -62,12 +62,6 @@ export default function LeasingCalculator() {
           <LeasingTerm months={months} onSelect={setMonth}>
             Select the lease term, month
           </LeasingTerm>
-          {/* <div>
-          <span>
-            Monthly payment:
-            {res.toFixed(2)}
-          </span>
-        </div> */}
           <br />
           <div className="leasing-button">
             <button onClick={showPaymentSchedule}>Payment schedule</button>

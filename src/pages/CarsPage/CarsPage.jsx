@@ -4,7 +4,6 @@ import ButtonNavigation from "../../components/ButtonNavigation/ButtonNavigation
 import { Link, NavLink, Route, Routes, Outlet } from "react-router-dom";
 import "./CarsPage.css";
 export default function CarsPage() {
-  console.log("CarsPage");
   return (
     <main>
       <h2 className="header-lease">Choose your car</h2>

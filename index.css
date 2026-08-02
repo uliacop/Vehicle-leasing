@@ -14,7 +14,7 @@
   text-align: center;
 }
 .width {
-  max-width: 580px; /* або інше значення */
+  max-width: 580px;
   margin: 0 auto;
 }
 ul {

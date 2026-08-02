@@ -8,26 +8,15 @@ export default function CarRules() {
     ...Array.from({ length: rules.length + 1 }, (_, i) => i),
     ...Array.from({ length: rules.length - 1 }, (_, i) => rules.length - 1 - i),
   ];
-
-  // Поточний крок
   const [step, setStep] = useState(0);
-
-  // Щосекунди переходимо до наступного кроку
   useEffect(() => {
     const timer = setInterval(() => {
       setStep((prev) => (prev + 1) % quantity.length);
     }, 1000);
-
     return () => clearInterval(timer);
   }, []);
-
-  // Скільки правил потрібно показати зараз
   const count = quantity[step];
-
-  // Беремо перші count правил
   const visibleRules = rules.slice(0, count);
-
-  // Анімація
   const transitions = useTransition(visibleRules, {
     from: {
       opacity: 0,

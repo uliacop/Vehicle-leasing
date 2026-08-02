@@ -11,12 +11,6 @@ export default function PricingPage() {
       <Achievements />
       <WhyChoose />
       <LeasingCalculator />
-
-      {/*     <InfoBanner img={bookAdventure}>
-        <Marquee>
-          <p>Book Your Adventure Today and Feel the Power of the Open Road.</p>
-        </Marquee>
-      </InfoBanner> */}
       <InfoBanner img={bookAdventure}>
         <h3>Find Your Perfect Ride</h3>
         <Marquee>

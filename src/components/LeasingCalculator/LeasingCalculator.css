@@ -22,16 +22,11 @@
   );
   font-weight: bold;
 }
-
-/* .leasing-button {
-  margin: 50px 0;
-} */
 .leasing-value {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
 }
-
 .leasing-value {
   display: flex;
   justify-content: space-between;
@@ -44,9 +39,7 @@
   border-radius: 20px;
   padding: 10px;
   width: 400px;
-  /*   flex: 1; */
 }
-
 .leasing-value input {
   width: 150px;
   background: #d1dcde;
@@ -99,4 +92,20 @@ h3 {
 
 .schedule-table tbody tr:hover {
   background-color: #e8f4ff;
+}
+input,
+select {
+  height: 35px;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+select {
+  width: 150px;
+  background: #d1dcde;
+  background: linear-gradient(
+    0deg,
+    rgba(209, 220, 222, 1) 0%,
+    rgba(245, 245, 235, 1) 100%
+  );
 }

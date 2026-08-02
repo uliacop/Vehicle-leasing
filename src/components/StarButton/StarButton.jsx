@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import "./StarButton.css";
 import { CiStar } from "react-icons/ci";
 import { FaStar } from "react-icons/fa";
 export default function StarButton({ onClick, selected }) {

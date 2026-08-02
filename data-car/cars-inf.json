@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "img": "./src/img/opt/1.jpg",
+    "img": "/src/img/opt/1.jpg",
     "description": "Monthly payments on leases are generally 20% - 30% cheaper than loans"
   },
   {
     "id": 2,
-    "img": "./src/img/opt/2.jpg",
+    "img": "/src/img/opt/2.jpg",
     "description": "You may be eligible for a tax break if you use the leased vehicle for business purposes"
   },
   {
     "id": 3,
-    "img": "./src/img/opt/3.jpg",
+    "img": "/src/img/opt/3.jpg",
     "description": "Easy to upgrade to the newest vehicle model every few years"
   },
   {
     "id": 4,
-    "img": "./src/img/opt/4.jpg",
+    "img": "/src/img/opt/4.jpg",
     "description": "There are often fees charged if you drive more than your lease's mileage allowance"
   }
 ]

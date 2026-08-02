@@ -1,10 +1,10 @@
 import React from "react";
+import { RotatingLines } from "react-loader-spinner";
 import "./Loader.css";
 
 export default function Loader() {
   return (
     <div className="loader">
-      render(
       <RotatingLines
         visible={true}
         height="96"
@@ -15,7 +15,6 @@ export default function Loader() {
         ariaLabel="rotating-lines-loading"
         wrapperStyle={{}}
       />
-      )
     </div>
   );
 }

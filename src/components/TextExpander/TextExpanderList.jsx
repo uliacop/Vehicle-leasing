@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ExpanderItem from "./ExpanderItem";
 import "./TextExpanderList.module.css";
-/* import textexpander from "../../../data/textexpander.json"; */
 import articles from "../../../data/articles.json";
 import LoadMoreBtn from "../LoadMoreBtn/LoadMoreBtn";
 
