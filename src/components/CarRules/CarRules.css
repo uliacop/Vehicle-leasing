@@ -1,0 +1,29 @@
+.rule-img {
+  width: 60px;
+  /*   border: 1px solid black; */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.rules {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 500px;
+  background: #c5e9fa;
+
+  background: radial-gradient(
+    ellipse at center,
+    rgba(157, 198, 252, 1) 0%,
+    rgba(157, 198, 252, 0.7) 25%,
+    rgba(157, 198, 252, 0.3) 45%,
+    rgba(157, 198, 252, 0.1) 60%,
+    transparent 80%
+  );
+}
+.rule {
+  list-style: none;
+}
+.rules-p {
+  font-weight: bold;
+}

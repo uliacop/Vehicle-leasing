@@ -5,6 +5,8 @@ export default function ExpanderItem({
   collapsedNumWords,
   expandButtonText,
   collapseButtonText,
+  headerText,
+  img,
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -14,7 +16,9 @@ export default function ExpanderItem({
 
   return (
     <>
-      <span className={css.text}>{displayText}</span>
+      <img src={img} alt={headerText} className="img-car" />
+      <h4>{headerText}</h4>
+      <p className="text">{displayText}</p>
       <button
         className={css.button}
         onClick={() => setIsExpanded((exp) => !exp)}

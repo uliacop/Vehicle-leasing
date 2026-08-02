@@ -67,10 +67,10 @@ export const Slider = () => {
         <img src="/src/img/slider/car-1281640_1280.jpg" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/src/img/slider/uaz-8254778_1280.jpg" />
+        <img src="/src/img/slider/car.jpg" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/src/img/slider/suv-7541007_1280.jpg" />
+        <img src="/src/img/slider/mersedes.jpg" />
       </SwiperSlide>
     </Swiper>
   );

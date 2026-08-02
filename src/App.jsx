@@ -29,6 +29,7 @@ import carsCrossovers from "../data-car/crossovers.json";
 import carsElectrified from "../data-car/electrified.json";
 import "./App.css";
 import CarList from "./components/CarList/CarList.jsx";
+import ContactsPage from "./pages/ContactsPage/ContactsPage.jsx";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -144,10 +145,11 @@ function App() {
           />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/contacts" element={<ContactsPage />} />
         </Routes>
         <ToastContainer
           position="top-right"
-          autoClose={5000}
+          autoClose={500}
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick={false}

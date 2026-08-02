@@ -29,8 +29,12 @@
   text-align: center;
 }
 .clear-btn {
+  display: flex;
   margin: 50px auto;
 }
 .select-car-list {
   min-height: 500px;
+}
+.select-car-list-cover {
+  margin: 100px;
 }

@@ -16,8 +16,11 @@ export default function CarCard({ car, category }) {
           e.currentTarget.src = defaultImg;
         }}
       />
-      <p>{name}</p>
-      <p>price:{price_usd}</p>
+      <p className="car-card-bold">{name}</p>
+      <p>
+        <span className="car-card-bold">price,$:</span>
+        {price_usd}
+      </p>
       <Link to={`/cars/${category}/${car.id}`} state={{ from: location }}>
         <button className="button-text"> See more details</button>
       </Link>

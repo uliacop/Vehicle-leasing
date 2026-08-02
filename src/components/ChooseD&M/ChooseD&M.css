@@ -1,0 +1,45 @@
+.choose-cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 100px;
+}
+.text-choose {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 250px;
+}
+.choose-text {
+}
+.choose-unit__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 176px;
+  height: 122px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  font-size: 14px;
+}
+.car-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.choose-list {
+}
+.choose-unit__item--1 {
+  top: 20px;
+  right: 0px;
+}
+.choose-unit__item--2 {
+  top: 400px;
+  right: 150px;
+}
+
+.choose-unit__item--3 {
+  top: 10px;
+  right: 540px;
+}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import rules from "../../../rules.json";
+import rules from "../../../data/rules.json";
 import "./RulesSet.css";
 export default function RulesSet() {
   const [selectedId, setSelectedId] = useState(null);

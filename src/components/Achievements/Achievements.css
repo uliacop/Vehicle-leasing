@@ -1,0 +1,26 @@
+.achievements {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.achievements-img {
+  width: 60px;
+  height: 50px;
+}
+.achievements-ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.achievements-li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.achievements-text {
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+}

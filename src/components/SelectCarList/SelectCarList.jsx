@@ -16,13 +16,15 @@ export default function SelectCarList({ buy, onDelete, setBuy }) {
   }
   return (
     <>
-      <BackButton className="back-select button-text" />
-      <h3>Total choose cars: {buy.length}</h3>
-      <ul className="car-choose-list">
-        {buy.map((car) => (
-          <CarChoose car={car} onDelete={onDelete} />
-        ))}
-      </ul>
+      <div className="select-car-list-cover">
+        <BackButton className="back-select button-text" />
+        <h3>Total choose cars: {buy.length}</h3>
+        <ul className="car-choose-list">
+          {buy.map((car) => (
+            <CarChoose car={car} onDelete={onDelete} />
+          ))}
+        </ul>
+      </div>
       <Button onClick={clearList} className="button-text clear-btn">
         Clear list
       </Button>

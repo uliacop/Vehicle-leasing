@@ -6,10 +6,11 @@ import LeaseList from "../../components/LeaseList/LeaseList";
 import RulesSet from "../../components/Rules/RulesSet";
 import Block from "../../components/Block/Block";
 import { Slider } from "../../components/Slider/Slider";
-import signs from "../../../signs.json";
+import signs from "../../../data/signs.json";
 import cars from "../../../data-car/cars-inf.json";
 import "./ServicePage.css";
 import VideoCar from "../../components/VideoCar/VideoCar";
+import CarRules from "../../components/CarRules/CarRules";
 export default function ServicePage() {
   console.log("ServicePage");
   return (
@@ -17,10 +18,10 @@ export default function ServicePage() {
       <Slider />
       <LeaseList items={signs} />
       {/*      <LeasingWork /> */}
-      <RulesSet />
+      {/*     <RulesSet /> */}
+      <CarRules />
       <VideoCar />
       <Block items={cars} />
-
       <Suspense fallback={<div>Loading subpage...</div>}>
         <Outlet />
       </Suspense>

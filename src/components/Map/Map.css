@@ -1,0 +1,11 @@
+.map {
+  /*   width: 100%; */
+  max-width: 1200px;
+  height: 500px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.map-container {
+  margin: 50px;
+}

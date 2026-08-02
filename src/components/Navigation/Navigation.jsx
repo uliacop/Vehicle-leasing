@@ -5,14 +5,29 @@ import "./Navigation.css";
 export default function Navigation({ buy = {} }) {
   return (
     <nav className="nav">
-      <NavLink to="/">Service</NavLink>
-      <NavLink to="cars">Cars</NavLink>
-      <NavLink to="pricing">Pricing</NavLink>
-      <NavLink to="about">About</NavLink>
-      <NavLink to="choose-car">
-        {buy.length > 0 && <span>{buy.length}</span>}Choose Car
-        <IoBagHandleOutline />
-      </NavLink>
+      <div className="nav-links">
+        <NavLink to="/" className="nav-link">
+          Service
+        </NavLink>
+        <NavLink to="cars" className="nav-link">
+          Cars
+        </NavLink>
+        <NavLink to="pricing" className="nav-link">
+          Pricing
+        </NavLink>
+        <NavLink to="about" className="nav-link">
+          About
+        </NavLink>
+        <NavLink to="contacts" className="nav-link">
+          Contact us
+        </NavLink>
+      </div>
+      <div className="nav-actions">
+        <NavLink to="choose-car" className="cart-link">
+          {buy.length > 0 && <span className="cart-count">{buy.length}</span>}
+          <IoBagHandleOutline className="cart-icon" />
+        </NavLink>
+      </div>
     </nav>
   );
 }

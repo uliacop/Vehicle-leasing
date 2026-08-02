@@ -39,3 +39,7 @@ footer {
 .footer-info {
   justify-content: center;
 }
+.footerUnit-li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}

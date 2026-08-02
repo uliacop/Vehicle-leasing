@@ -27,7 +27,7 @@ export default function Footer() {
             <h3>{footerUnit.title}</h3>
             <ul className="footerUnit">
               {footerUnit.links.map((link) => (
-                <li>{link}</li>
+                <li className="footerUnit-li">{link}</li>
               ))}
             </ul>
           </div>
