@@ -1,25 +1,25 @@
 [
   {
     "id": "1",
-    "img": "/src/img/reason-choose/quality.png",
+    "img": "/img/reason-choose/quality.png",
     "title": "Quality & Variety",
     "text": "Discover our diverse range of meticulously maintained vehicles, ensuring you always drive in style. From sleek sedans to rugged SUVs, our fleet offers the perfect ride for every occasion. We meticulously maintain each vehicle to the highest standards, ensuring not just style but also performance and reliability on your journey."
   },
   {
     "id": "2",
-    "img": "/src/img/reason-choose/rates.png",
+    "img": "/img/reason-choose/rates.png",
     "title": "Affordable Rates",
     "text": "We believe that luxury travel should be accessible to all. We offer competitive prices without hidden fees, giving you the freedom to experience the comfort and style of our premium vehicles without breaking the bank. We're committed to providing affordable luxury for your travels."
   },
   {
     "id": "3",
-    "img": "/src/img/reason-choose/booking.png",
+    "img": "/img/reason-choose/booking.png",
     "title": "Ease Leasing",
     "text": "Reserving your dream car is a breeze with D&M. Our user-friendly online platform and mobile app make the booking process straightforward and efficient. In just a few clicks, you can secure your choice of vehicle and hit the road, ensuring a seamless and hassle-free experience from start to finish."
   },
   {
     "id": "4",
-    "img": "/src/img/reason-choose/satisfaction.png",
+    "img": "/img/reason-choose/satisfaction.png",
     "title": "Customer Satisfaction",
     "text": "Our loyal customers trust  D&M for the excellence of our service and the exquisite selection in our fleet. From the moment you book to the final mile of your journey, we are dedicated to providing top-notch service. We pride ourselves on our responsive customer support, available 24/7 to assist you. Your satisfaction is our ultimate reward."
   }

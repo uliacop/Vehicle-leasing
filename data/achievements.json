@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "img": "/src/img/achievements/customer-choice.png",
+    "img": "/img/achievements/customer-choice.png",
     "text": "customer choice award"
   },
   {
     "id": 2,
-    "img": "/src/img/achievements/drive.png",
+    "img": "/img/achievements/drive.png",
     "text": "safety drive excellence"
   },
   {
     "id": 3,
-    "img": "/src/img/achievements/champion.png",
+    "img": "/img/achievements/champion.png",
     "text": "innovation champion"
   },
   {
     "id": 4,
-    "img": "/src/img/achievements/travel-partner.png",
+    "img": "/img/achievements/travel-partner.png",
     "text": "sustainable travel partner"
   },
   {
     "id": 5,
-    "img": "/src/img/achievements/customer-support.png",
+    "img": "/img/achievements/customer-support.png",
     "text": "best customer support"
   },
   {
     "id": 6,
-    "img": "/src/img/achievements/milestone.png",
+    "img": "/img/achievements/milestone.png",
     "text": "business growth milestone"
   },
   {
     "id": 7,
-    "img": "/src/img/achievements/engagement.png",
+    "img": "/img/achievements/engagement.png",
     "text": "community engagement"
   },
   {
     "id": 8,
-    "img": "/src/img/achievements/leadership.png",
+    "img": "/img/achievements/leadership.png",
     "text": "industry leadership"
   }
 ]
