@@ -4,7 +4,7 @@ import LeasingCalculator from "../../components/LeasingCalculator/LeasingCalcula
 import Achievements from "../../components/Achievements/Achievements";
 import WhyChoose from "../../components/WhyChoose/WhyChoose";
 import InfoBanner from "../../components/InfoBanner/InfoBanner";
-import bookAdventure from "../../img/info-baner/book-your-adventure.png";
+import bookAdventure from "/img/info-baner/book-your-adventure.png";
 export default function PricingPage() {
   return (
     <main>

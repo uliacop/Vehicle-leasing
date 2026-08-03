@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "../../components/Contact/Contact";
 import "./ContactsPage.css";
 import InfoBanner from "../../components/InfoBanner/InfoBanner";
-import explore from "../../img/info-baner/exploreOurFleet.png";
+import explore from "/img/info-baner/exploreOurFleet.png";
 import Marquee from "react-fast-marquee";
 import Map from "../../components/Map/Map";
 export default function ContactsPage() {
@@ -17,7 +17,9 @@ export default function ContactsPage() {
       <Map />
       <InfoBanner img={explore}>
         <Marquee>
-          <p className="marquee-text">Explore Our Fleet and Book Your Dream Car Today!</p>
+          <p className="marquee-text">
+            Explore Our Fleet and Book Your Dream Car Today!
+          </p>
         </Marquee>
       </InfoBanner>
     </div>

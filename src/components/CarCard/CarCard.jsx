@@ -1,6 +1,6 @@
 import React from "react";
 import "./CarCard.css";
-import defaultImg from "../../img/car.svg";
+import defaultImg from "/img/car.svg";
 import { Link, useLocation } from "react-router-dom";
 export default function CarCard({ car, category }) {
   const { name, photo, price_usd } = car;

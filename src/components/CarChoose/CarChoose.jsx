@@ -1,5 +1,5 @@
 import React from "react";
-import defaultImg from "../../img/car.svg";
+import defaultImg from "/img/car.svg";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import "./CarChoose.css";
 

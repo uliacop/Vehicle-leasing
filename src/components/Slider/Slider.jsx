@@ -24,19 +24,19 @@ export const Slider = () => {
       className="mySwiper"
     >
       <SwiperSlide>
-        <img src="/src/img/slider/automobile-2120430_1280.jpg" />
+        <img src="/img/slider/automobile-2120430_1280.jpg" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/src/img/slider/bmw-1216469_1280.jpg" />
+        <img src="/img/slider/bmw-1216469_1280.jpg" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/src/img/slider/car-1281640_1280.jpg" />
+        <img src="/img/slider/car-1281640_1280.jpg" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/src/img/slider/car.jpg" />
+        <img src="/img/slider/car.jpg" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src="/src/img/slider/mersedes.jpg" />
+        <img src="/img/slider/mersedes.jpg" />
       </SwiperSlide>
     </Swiper>
   );

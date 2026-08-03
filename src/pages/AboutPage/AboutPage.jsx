@@ -4,7 +4,7 @@ import fqa from "../../../data/fqa.json";
 import TextExpanderList from "../../components/TextExpander/TextExpanderList";
 import ChooseDM from "../../components/ChooseD&M/ChooseD&M";
 import InfoBanner from "../../components/InfoBanner/InfoBanner";
-import reserve from "/src/img/info-baner/reserve-your-dream.png";
+import reserve from "/img/info-baner/reserve-your-dream.png";
 export default function AboutPage() {
   return (
     <main>

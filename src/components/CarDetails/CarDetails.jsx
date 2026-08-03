@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import { IoIosStar } from "react-icons/io";
 import BackButton from "../BackButton";
-import defaultImg from "../../img/car.svg";
+import defaultImg from "/img/car.svg";
 import Star from "../SelectCarList/SelectCarList";
 import { useParams, useLocation } from "react-router-dom";
 import { useRef } from "react";
