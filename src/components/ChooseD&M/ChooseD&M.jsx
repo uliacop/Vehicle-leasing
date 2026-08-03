@@ -11,7 +11,7 @@ export default function ChooseDM() {
         </p>
       </div>
       <div className="car-wrapper">
-        <img className="car-img" src="/src/img/car-choose.png" />
+        <img className="car-img" src="/img/car-choose.png" />
         <ul className="choose-list">
           <li className="choose-unit__item choose-unit__item--1">
             <h4>Easy lizing</h4>

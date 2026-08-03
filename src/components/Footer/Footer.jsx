@@ -37,13 +37,13 @@ export default function Footer() {
         <ul className="svg-list">
           <li>
             <span>
-              <img className="footer-svg" src="/src/img/signs/apple.svg" />
+              <img className="footer-svg" src="/img/signs/apple.svg" />
             </span>
             <p>Available on the AppStore</p>
           </li>
           <li>
             <span>
-              <img className="footer-svg" src="/src/img/signs/playMarket.png" />
+              <img className="footer-svg" src="/img/signs/playMarket.png" />
             </span>
             <p>Get it Google play</p>
           </li>
